@@ -21,7 +21,7 @@ ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE=20
 bindkey '^L' autosuggest-accept
 
 # fzf
-export FZF_DEFAULT_COMMAND='fd --type f --hidden --follow --exclude .git'
+export FZF_DEFAULT_COMMAND='fd --type f '
 export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 export FZF_ALT_C_COMMAND='fd --type d --hidden --follow --exclude .git'
 export BAT_THEME="gruvbox-dark"

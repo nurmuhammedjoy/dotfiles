@@ -1,0 +1,15 @@
+node_modules
+.git
+.cache
+dist
+.icons
+.oh-my-zsh
+.themes
+undodir
+.local/share/nvim
+.npm
+.config/mozilla/firefox/
+storage/shared/
+storage/pictures/
+storage/dcim/
+
